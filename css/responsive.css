@@ -1,0 +1,62 @@
+/*================ Normal desktop :992px.==================== */
+@media (min-width: 992px) and (max-width: 1169px) {
+
+    
+
+}
+/*================ Tablet desktop :768px.==================*/
+@media (min-width: 768px) and (max-width: 991px) {	
+    .home_title h1{
+       font-size: 56px;
+   }
+   .ah-headline{
+     font-size: 30px;
+ }
+ .social ul li{
+    font-size: 30px;
+    
+}
+
+
+}
+/*================== small mobile :320px. ===================*/
+@media (max-width: 767px) {		
+    .global-menu__item{
+        font-size: 30px;
+        line-height: 1;
+    }
+    header .logo a {
+        left: 10px;
+        
+    }
+    .hamburger{
+        right: 20px;
+    }
+    .home_title h1{
+       font-size: 36px;
+   }
+   .ah-headline{
+     font-size: 18px;
+ }
+ .social ul li{
+    font-size: 18px;
+    
+}
+.portfolio-filter ul li{
+    display: block;
+    margin-bottom: 2px
+}
+
+
+}
+/* ======================Large Mobile :480px.================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {	
+
+ 
+    .portfolio-filter ul li{
+        display: block;
+        margin-bottom: 2px
+    }
+    
+
+}
